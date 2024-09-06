@@ -6,7 +6,7 @@ public class TesteString {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Digite uma letra(maiúscula ou minúscula)");
-        String input = sc.toString();
+        String input = sc.nextLine();
 
         sc.close();
 
@@ -21,6 +21,6 @@ public class TesteString {
             }
         }
 
-        System.out.println("Letra 'a' aparece" + cont + "vezes na String.");
+        System.out.println("Letra 'a' aparece " + cont + " vezes na String.");
     }
 }

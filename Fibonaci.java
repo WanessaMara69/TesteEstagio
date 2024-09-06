@@ -8,9 +8,9 @@ public class Fibonaci {
         int num = sc.nextInt();
 
         if(isFibonacci(num)){
-            System.out.println(num + "Pertence á sequência Fibonacci");
+            System.out.println(num + " Pertence á sequência Fibonacci");
         }else{
-            System.out.println(num + "Não pertence á sequência Fibonacci");
+            System.out.println(num + " Não pertence á sequência Fibonacci");
         }
     }
     public static boolean isFibonacci(int num){
